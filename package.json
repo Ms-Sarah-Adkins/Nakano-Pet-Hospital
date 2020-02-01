@@ -1,0 +1,11 @@
+{
+  "name": "nakano-pet-hospital",
+  "version": "1.0.0",
+  "description": "rework for host families website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarah Adkins",
+  "license": "ISC"
+}
