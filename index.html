@@ -18,95 +18,104 @@
     <div class="jumbotron jumbotron-fluid">
         <img src="http://nakanoah.jp/img/title.gif" alt="なかの動物病院">
     </div>
-    <div class="container">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="index.html" role="tab"
-                    aria-controls="pills-home" aria-selected="true">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="fclt.html" role="tab"
-                    aria-controls="pills-profile" aria-selected="false">病院施設案内</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="treat.html" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">診療内容</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="time.html" role="tab"
-                    aria-controls="pills-home" aria-selected="true">診察時間と休診日</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="acss.html" role="tab"
-                    aria-controls="pills-profile" aria-selected="false">交通アクセス</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="hotel.html" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">おあずかり <span class="small">（ペットホテル）</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="stf.html" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">スタッフ紹介</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="faq.html" role="tab"
-                    aria-controls="pills-profile" aria-selected="false">よくあるご質問</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="clmn.html" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">コラム</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="link.html" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">リンク</a>
-            </li>
-        </ul>
+    <div container-fluid>
+        <div class="row flex-xl-nowrap">
+            <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+                <ul class="nav flex-column mb-3" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-controls="pills-home"
+                            aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">病院施設案内</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="treat.html" aria-controls="pills-contact">診療内容</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="time.html" aria-controls="pills-home">診察時間と休診日</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="acss.html" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">交通アクセス</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="hotel.html" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">おあずかり <span
+                                class="small">（ペットホテル）</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="stf.html" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">スタッフ紹介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="faq.html" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">よくあるご質問</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="clmn.html" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">コラム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" href="link.html" aria-controls="pills-contact"
+                            aria-selected="false">リンク</a>
+                    </li>
+                </ul>
+            </div>
+            <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+                <div class="row row-content">
+                    <h2>病院からのおしらせ</h2>
+                    <p>明けましておめでとうございます。 当院では2019年 1000件を越える手術をおこないました。 診察もなるべく患者さんをお待たせしないように工夫しております。
+                        一人でも一頭でも患者さん達が幸せになれるようにスタッフ一同 今後とも頑張っていきます。 本年も宜しくお願いいたします。</p>
+
+                    <p>２０１９年９月１日から新しく獣医師の田中希歩先生が勤務されています。 臨床歴５年目の先生です。よろしくお願いいたします。</p>
+
+                    <p>獣医師休暇のお知らせ ２月７日（金）～２月１２日（水） 田中先生の診察はお休みになります</p>
+
+                    <p>２月１７日（月）～２月２２日（土） 山下先生の診察はお休みになります</p>
+
+                    <p>２月２３日（日）～２月２５日（火） 園子先生の診察はお休みになります</p>
+
+                    <p>ご迷惑をおかけいたします。</p>
+
+                    <p>夜間時間外は午後9:30頃まで対応いたしますが、対応できない場合もあります。まずはお電話にてご確認ください。別途時間外料金がかかります。</p>
+
+                    <p>パート・アルバイト募集 病院スタッフを若干名募集しています。 特別な資格は必要ありません。看護師さんの仕事のサポートをしていただきます。曜日・勤務時間等は相談に応じます。
+                        まずはお電話にてご相談ください。
+                    </p>
+
+                    <p>獣医師を募集しています。 経験者、新卒は問いません。（経験者優遇いたします） 見学随時おこなっております。 仕事の開始時期また週に数回出勤、午後５時まで等の勤務時間の希望も相談に応じます。
+                    </p>
+                    <p>ご興味のある方はまずはお電話ください。</p>
+
+                    <p>皮膚病、心臓病、寝たきり、老齢等の疾患をもった犬猫（健常犬も）のシャンプー、薬浴、トリミング等もおこなっています。</p>
+
+                    <p>獣医師・獣医学科学生の見学は随時受け付けております。まずはお電話でご確認ください。</p>
+
+                    <p>なかの動物病院のフェイスブックを作りました。 よろしくお願いします。</p>
+                    </p>
+                </div>
+                <div class="row row-content">
+                    <h2>今月の休診日</h2>
+                    <p>１２月３０日（月）まで平常通り １２月３１日（火）～１月２日（木）の３日間は休診日 　１月　３日（金）より平常通り</p>
+
+                    <p>休診日は急患及び継続治療の方を対象に、当番の獣医師による診療を行っております。 なお、休日診療時は、診察料金とは別に休日料金がかかります。</p>
+
+                    <p>休日診療時間 午前　９：００～１１：００ 午後　４：００～　５：００</p>
+                </div>
+            </main>
+        </div>
+
     </div>
-    <div class="container">
-        <div class="row">
-            <h2>病院からのおしらせ</h2>
-        </div>
-        <div class="row">
-            <p>明けましておめでとうございます。 当院では2019年 1000件を越える手術をおこないました。 診察もなるべく患者さんをお待たせしないように工夫しております。
-                一人でも一頭でも患者さん達が幸せになれるようにスタッフ一同 今後とも頑張っていきます。 本年も宜しくお願いいたします。</p>
 
-            <p>２０１９年９月１日から新しく獣医師の田中希歩先生が勤務されています。 臨床歴５年目の先生です。よろしくお願いいたします。</p>
-
-            <p>獣医師休暇のお知らせ ２月７日（金）～２月１２日（水） 田中先生の診察はお休みになります</p>
-
-            <p>２月１７日（月）～２月２２日（土） 山下先生の診察はお休みになります</p>
-
-            <p>２月２３日（日）～２月２５日（火） 園子先生の診察はお休みになります</p>
-
-            <p>ご迷惑をおかけいたします。</p>
-
-            <p>夜間時間外は午後9:30頃まで対応いたしますが、対応できない場合もあります。まずはお電話にてご確認ください。別途時間外料金がかかります。</p>
-
-            <p>パート・アルバイト募集 病院スタッフを若干名募集しています。 特別な資格は必要ありません。看護師さんの仕事のサポートをしていただきます。曜日・勤務時間等は相談に応じます。 まずはお電話にてご相談ください。
-            </p>
-
-            <p>獣医師を募集しています。 経験者、新卒は問いません。（経験者優遇いたします） 見学随時おこなっております。 仕事の開始時期また週に数回出勤、午後５時まで等の勤務時間の希望も相談に応じます。</p>
-            <p>ご興味のある方はまずはお電話ください。</p>
-
-            <p>皮膚病、心臓病、寝たきり、老齢等の疾患をもった犬猫（健常犬も）のシャンプー、薬浴、トリミング等もおこなっています。</p>
-
-            <p>獣医師・獣医学科学生の見学は随時受け付けております。まずはお電話でご確認ください。</p>
-
-            <p>なかの動物病院のフェイスブックを作りました。 よろしくお願いします。</p>
-            </p>
-        </div>
-        <div class="row">
-            <h2>今月の休診日</h2>
-
-        </div>
-        <div class="row">
-            <p>１２月３０日（月）まで平常通り １２月３１日（火）～１月２日（木）の３日間は休診日 　１月　３日（金）より平常通り</p>
-
-            <p>休診日は急患及び継続治療の方を対象に、当番の獣医師による診療を行っております。 なお、休日診療時は、診察料金とは別に休日料金がかかります。</p>
-
-            <p>休日診療時間 午前　９：００～１１：００ 午後　４：００～　５：００</p>
-        </div>
-    </div>
 
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
