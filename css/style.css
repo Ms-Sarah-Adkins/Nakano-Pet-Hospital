@@ -39,9 +39,26 @@ body{
 
   .container{
       background-color: #ffffff;
-      padding: 2rem 2rem 2rem 2rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
   }
 
   nav {
     background-color: #f0f0f0;
+  }
+
+  footer {
+      background-color: #f0f0f0;
+  }
+
+  footer img {
+      height: 2rem;
+  }
+
+  #outside {
+      width: 100%;
+  }
+
+  #footer-info {
+      text-align: center;
   }
