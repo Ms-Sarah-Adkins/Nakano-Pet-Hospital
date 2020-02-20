@@ -2,13 +2,17 @@
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+body{
+    background-color: #006622;
+}
+
 .jumbotron {
     padding: 30px;
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
+    border-top: 1px ridge;
     min-height: 200px;
 }
 
@@ -20,3 +24,24 @@
     display: inline-block;
     align-self: stretch;
 }
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.navbar-brand {
+    width: 25%;
+}
+
+ .navbar-brand-img {
+      height: 100%;
+      width: 100%;
+  }
+
+  .container{
+      background-color: #ffffff;
+      padding: 2rem 2rem 2rem 2rem;
+  }
+
+  nav {
+    background-color: #f0f0f0;
+  }
